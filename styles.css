@@ -104,6 +104,28 @@ section {
   color: var(--primary-color);
 }
 /* header */
+/* about */
+.about .box-container .box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.about .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: var(--gray);
+  text-transform: none;
+}
+/* about */
 /* contact */
 .contact .box-container {
   display: grid;
