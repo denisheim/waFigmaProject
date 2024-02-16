@@ -225,3 +225,31 @@ section {
   color: var(--white);
 }
 /* contact */
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 0.2rem solid var(--light-gray);
+}
+
+.footer .socials ion-icon {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  background-color: var(--light-gray);
+  border-radius: 50%;
+  padding: 1rem;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.footer .socials ion-icon:hover {
+  background-color: var(--primary-color);
+  color: var(--light-gray);
+}
+
+.footer .copyright p {
+  font-size: 1.5rem;
+}
+/* footer */
