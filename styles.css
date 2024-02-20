@@ -211,6 +211,61 @@ section {
   color: var(--gray);
   line-height: 2;
 }
+/* projects */
+.projects {
+  background-color: var(--light-gray);
+}
+
+.projects .box-container .box .image {
+  position: relative;
+  overflow: hidden;
+  height: 40rem;
+}
+
+.projects .box-container .box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+}
+
+.projects .box-container .box .image .overlay {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateY(-40rem);
+}
+
+.projects .box-container .box .image .overlay h3 {
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.projects .box-container .box .image .overlay span {
+  font-size: 1.5rem;
+  color: var(--gray);
+}
+
+.projects .box-container .box:hover .image .overlay {
+  transform: translateY(0);
+} 
+
 /* contact */
 .contact .box-container {
   display: grid;
