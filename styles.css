@@ -190,10 +190,6 @@ section {
   padding: 1.5rem;
 }
 
-.services .box-container .box:hover {
-  box-shadow: none;
-}
-
 .services .box-container .box ion-icon {
   font-size: 6rem;
   color: var(--primary-color);
@@ -261,10 +257,6 @@ section {
   font-size: 1.5rem;
   color: var(--gray);
 }
-
-.projects .box-container .box:hover .image .overlay {
-  transform: translateY(0);
-} 
 
 /* contact */
 .contact .box-container {
